@@ -1,4 +1,4 @@
-.box{
+/* .box{
     height: 100px;
     width: 200px;
 }
@@ -57,4 +57,40 @@
 
  .clear-both{
      clear: both;
+ } */
+ /* end of float boxes */
+
+
+ /* beginning of nav */
+
+ body{
+     margin: 0;
  }
+
+ .main-nav{
+     height: 85px;
+     background-color: grey;
+}
+
+.logo{
+    height: 36px;
+    padding: 25px;
+}
+
+.nav-list{
+    float: right;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+li{
+    color: white;
+    float: left;
+    padding: 14px 16px 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+ /* end of nav */
